@@ -1,0 +1,80 @@
+QWidget {
+    background-color: #f2f4f8;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+QLabel {
+    font-weight: bold;
+    margin: 6px;
+    font-size: 16px;
+}
+
+QLineEdit, QComboBox {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+QPushButton {
+    background-color: #56d35e; /* Primary green */
+    color: white;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+QPushButton#addButton {
+    background-color: #007bff; /* Darker blue for + buttons */
+}
+
+QPushButton#addButton:hover {
+    background-color: #0056b3;
+}
+
+QPushButton#delete_ {
+    background-color: #d9534f; /* Red for delete */
+}
+
+QPushButton#delete_btn:hover {
+    background-color: #c9302c;
+}
+
+QPushButton#previewButton {
+    background-color: #5cb85c; /* Dark green for preview */
+}
+
+QPushButton#previewButton:hover {
+    background-color: #449d44;
+}
+
+QGroupBox {
+    background-color: #f9f9f9;;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+QTableWidget {
+    background: white;
+    font-size: 13px;
+    border: 1px solid #ccc;
+}
+
+QHeaderView::section {
+    background: #56d35e;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+
